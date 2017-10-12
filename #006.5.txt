@@ -1,0 +1,7 @@
+MOV A,5
+MOV B,5
+faktorial:
+DEC B
+MUL B
+CMP B,1
+JNE faktorial
